@@ -14,8 +14,9 @@
 <h1>birth=${param.birth}</h1>
 <h1>sns=${param.sns}</h1>
 <!-- sns는 checkbox 타입이므로, 전송되는 값이 여러개일 수 있다. 따라서 배열의 형태로 받는다. -->
-<h1>sns=${paramValues.sns[0]}</h1>
+<h1>sns=${paramValues.sns}</h1>
 <h1>sns=${paramValues.sns[1]}</h1>
-<h1>sns=${paramValues.sns[2]}</h1>
+<h1>sns=${user.sns}</h1>
+<h1>hobby=${user.hobby}</h1>
 </body>
 </html>

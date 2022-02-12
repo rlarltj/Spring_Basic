@@ -48,7 +48,7 @@ public class User {
 	public void setBirth(Date birth) {
 		this.birth = birth;
 	}
-	public String getSns() {
+	public String getSns() {	
 		return sns;
 	}
 	public void setSns(String sns) {

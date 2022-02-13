@@ -5,10 +5,10 @@ import java.lang.reflect.Method;
 public class main {
 	public static void main(String args[]) throws Exception{
 		hello h = new hello();
-		// h.hello();   접근제어자가 private이므로 접근 불가능
+// 		h.hello();   접근제어자가 private이므로 접근 불가능
 		
 //		Reflection API를 사용하면 접근 가능 - 클래스 정보를 얻고 다룰 수 있는 강력한 기능 제공
-//		java.lang.reflect 패키지를 제공
+//		java.lang.reflect 패키지
 		
 //		hello 클래스의 Class객체(클래스의 정보를 담은 객체)를 얻어온다.
 		Class helloClass = Class.forName("com.kiseo.www.hello");

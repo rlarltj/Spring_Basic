@@ -15,7 +15,7 @@ public class main {
 		hello hello  = (hello)helloClass.newInstance();
 //		반환 타입이 object이므로 형변환을 해주도록 한다. class 객체가 가진 정보로 객체를 생성한다.
 		
-		Method main = helloClass.getDeclaredMethod("main");
+		Method main = helloClass.getDeclaredMethod("main3");
 		main.setAccessible(true);  //private인 main을 호출 가능케한다.
 		
 		main.invoke(hello);  // hello.main()과 같다.

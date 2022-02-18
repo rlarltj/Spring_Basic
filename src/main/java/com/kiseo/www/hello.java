@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class hello {
 	//2. url과 메서드를 연결
 	@RequestMapping("/hello")
-	public void main() {
+	private void main3() {
 		System.out.println("hello-private");
 	}
 }
